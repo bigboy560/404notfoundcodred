@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>VOGUE VIEW</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            flex-basis: calc(33.333% - 20px);
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main-nav">
+            <a href="index.html" class="logo">VOGUE VIEW.</a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="secpage.html">POSES</a></li>
+                <li><a href="work.html">LOGIN</a></li>
+            </ul>
+        </div>
+        <div class="sub-nav">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-google"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="description">
+            <h2 class="heading-secondary">LET'S GET POSING</h2>
+            <p>CHOOSE YOUR OCCASION...</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="icon">
+                    <a href="fitness.html">
+                        <img src="images/gym.jpg" alt="Image 1">
+                    </a>
+                </div>
+                <h3 class="heading-tertiary fitness-heading"><a href="fitness.html" class="card-link">FITNESS POSES</a></h3>
+                <p>LETS GET A POST WORKOUT SNAP??</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <a href="friends.html">
+                        <img src="img2/WhatsApp Image 2024-01-12 at 16.01.37 (1).jpeg" alt="Image 2">
+                    </a>
+                </div>
+                <h3 class="heading-tertiary"><a href="friends.html" class="card-link">WITH FRIENDS?</a></h3>
+                <p>START POSING WITH YOUR HOMIES</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <a href="aesthetic.html">
+                        <img src="img2/WhatsApp Image 2024-01-12 at 16.01.39.jpeg" alt="Image 3">
+                    </a>
+                </div>
+                <h3 class="heading-tertiary"><a href="aesthetic.html" class="card-link">AESTHETIC POSES</a></h3>
+                <p>ALL YOUR AESTHETIC POSES FOR YOU TO KEEP UP WITH THE TREND</p>
+            </div>
+
+            <!-- Repeat the card structure for the remaining images -->
+            <!-- Example for Image 4 -->
+            <div class="card">
+                <div class="icon">
+                    <a href="your_page.html">
+                        <img src="your_image_path.jpg" alt="Image 4">
+                    </a>
+                </div>
+                <h3 class="heading-tertiary"><a href="your_page.html" class="card-link">YOUR CUSTOM TITLE</a></h3>
+                <p>YOUR CUSTOM DESCRIPTION</p>
+            </div>
+
+            <!-- Repeat for Image 5, 6, 7, 8, 9... -->
+        </div>
+    </div>
+</body>
+</html>

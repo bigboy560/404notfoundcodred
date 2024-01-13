@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .row {
+      flex: 1;
+      display: flex;
+    }
+
+    .col {
+      flex: 1;
+      position: relative;
+    }
+
+    .footer {
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    .login-form {
+      justify-content: center;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    input {
+      margin-bottom: 16px;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!-- Your 3D space canvas -->
+        body
+	margin: 0
+
+canvas
+	z-index: -1
+	top: 0
+	display: block
+	width: 100%
+	height: 100%
+	position: fixed
+
+.footer
+	right: 2rem
+	bottom: 2rem
+	position: absolute
+	img
+		width: 2.5rem
+		transition: opacity 0.5s
+		&:hover
+			opacity: 0.5
+            
+        <canvas id="spaceCanvas"></canvas>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col">
+        <a href="https://www.instagram.com/victorvergara.co/" target="_blank">
+          <img src="https://victorvergara.co/logo.svg" alt="Instagram Logo" width="25">
+        </a>
+      </div>
+    </div>
+    <div class="row login-form">
+      <div class="col">
+        <!-- Login Form -->
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.skypack.dev/three@0.140.0/build/three.module.js"></script>
+  <script src="https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/controls/OrbitControls.js"></script>
+  <script src="https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/geometries/RoundedBoxGeometry.js"></script>
+  <script>
+    // Your existing Three.js code here
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const loginForm = document.getElementById("loginForm");
+
+      loginForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Perform login validation and handling here
+        // You can use AJAX to send login credentials to the server and handle the response
+
+        // For demonstration purposes, let's just alert a message
+        alert("Login Successful!");
+      });
+    });
+  </script>
+</body>
+</html>

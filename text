@@ -1,0 +1,220 @@
+<div class="slideshow-container">
+        <div class="mySlides">
+            <img src="img2/WhatsApp Image 2024-01-12 at 16.01.37 (1).jpeg" alt="Image 1">
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="img2/WhatsApp Image 2024-01-12 at 16.01.37.jpeg" alt="Image 1">
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <img src="img2/WhatsApp Image 2024-01-12 at 16.01.38 (1).jpeg" alt="Image 1">
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <img src="img2/WhatsApp Image 2024-01-12 at 16.01.39.jpeg" alt="Image 1">
+                    </div>
+
+
+
+
+
+
+
+
+                    body {
+                        margin: 0;
+                        font-family: Arial, Helvetica, sans-serif;
+                      }
+                      
+                      .slideshow-container {
+                        max-width: 1000px;
+                        position: relative;
+                        margin: auto;
+                        text-align: center;
+                      }
+                      
+                      .mySlides {
+                        display: none;
+                        max-width: 100%;
+                        max-height: 80vh;
+                        margin: auto;
+                      }
+                      
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                      
+                      .prev,
+                      .next {
+                        cursor: pointer;
+                        position: absolute;
+                        top: 50%;
+                        width: auto;
+                        padding: 16px;
+                        margin-top: -22px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        transition: 0.6s ease;
+                        border-radius: 0 3px 3px 0;
+                        user-select: none;
+                      }
+                      
+                      .prev {
+                        left: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                      
+                      .next {
+                        right: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                      
+                      .prev:hover,
+                      .next:hover {
+                        background-color: rgba(0, 0, 0, 0.8);
+                      }
+                      
+                      .slide-button {
+                        background-color: #4CAF50;
+                        color: white;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                      }
+                      
+                      .slide-button:hover {
+                        background-color: #45a049;
+                      }
+                      
+
+
+
+
+
+
+
+                      body {
+                        margin: 0;
+                        font-family: Arial, Helvetica, sans-serif;
+                      }
+                      
+                      .slideshow-container {
+                        max-width: 1000px;
+                        position: relative;
+                        margin: auto;
+                      }
+                      
+                      .mySlides {
+                        display: none;
+                      }
+                      
+                      img {
+                        width: 100%;
+                      }
+                      
+                      .prev,
+                      .next {
+                        cursor: pointer;
+                        position: absolute;
+                        top: 50%;
+                        width: auto;
+                        padding: 16px;
+                        margin-top: -22px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        transition: 0.6s ease;
+                        border-radius: 0 3px 3px 0;
+                        user-select: none;
+                      }
+                      
+                      .prev {
+                        left: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                      
+                      .next {
+                        right: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                      
+                      .prev:hover,
+                      .next:hover {
+                        background-color: rgba(0, 0, 0, 0.8);
+                      }
+                      /* Add your styles for the slideshow here */
+                      body {
+                        margin: 0;
+                        font-family: Arial, Helvetica, sans-serif;
+                      }
+                      
+                      .slideshow-container {
+                        max-width: 1000px;
+                        position: relative;
+                        margin: auto;
+                        text-align: center;
+                      }
+                      
+                      .mySlides {
+                        display: none;
+                        max-width: 100%;
+                        max-height: 80vh;
+                        margin: auto;
+                      }
+                      
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                      
+                      .prev,
+                      .next {
+                        cursor: pointer;
+                        position: absolute;
+                        top: 50%;
+                        width: auto;
+                        padding: 16px;
+                        margin-top: -22px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 18px;
+                        transition: 0.6s ease;
+                        border-radius: 0 3px 3px 0;
+                        user-select: none;
+                      }
+                      
+                      .prev {
+                        left: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                      
+                      .next {
+                        right: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                      
+                      .prev:hover,
+                      .next:hover {
+                        background-color: rgba(0, 0, 0, 0.8);
+                      }
+                      
+                      .slide-button {
+                        background-color: #4CAF50;
+                        color: white;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                      }
+                      
+                      .slide-button:hover {
+                        background-color: #45a049;
+                      }
+                      
+                      
